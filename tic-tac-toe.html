@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Pacifico&Comfortaa:wght@300&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="tic-tac-toe.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="heading">Tic Tac Toe</h1>
+    <div class="subheading">
+        <span>
+            <strong>Player1: </strong> X
+        </span>
+        <span>
+            <strong>Player2: </strong> O
+        </span>
+    </div>
+
+    <div class="subheading">
+        <strong>Turn: </strong> 
+        <span id="playerTurn">
+            Player1
+        </span>
+    </div>
+
+    <div id='grid' class="grid-container">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="cell"></td>
+                    <td class="cell border-left border-right"></td>
+                    <td class="cell"></td>
+                </tr>
+                <tr>
+                    <td class="cell border-top border-bottom"></td>
+                    <td class="cell border-left border-right border-top border-bottom"></td>
+                    <td class="cell border-top border-bottom"></td>
+                </tr>
+                <tr>
+                    <td class="cell"></td>
+                    <td class="cell border-left border-right"></td>
+                    <td class="cell"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="btn-container">
+        <button class="btn reset-btn" id="reset-btn">
+            Reset
+        </button>
+        <button class="btn replay-btn hide" id="replay-btn">
+            Replay
+        </button>
+    </div>
+
+    <script src="tic-tac-toe.js"></script>
+</body>
+</html>

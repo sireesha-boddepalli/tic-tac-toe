@@ -1,0 +1,85 @@
+* {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+body {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+.subheading{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+.subheading span{
+    margin: 20px;
+    font-family: 'Comfortaa', cursive;
+}   
+
+table, tr, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+td {
+    width: 100px;
+    height: 100px;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.grid-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-over-grid-container{
+    cursor: not-allowed;
+    opacity: 0.2;
+}
+
+.btn-container{
+    margin-top: 50px;
+    text-align: center;
+}
+.btn{
+    font-size: 30px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.replay-btn{
+    background-color: #198754;
+}
+
+.reset-btn{
+    background-color: #0d6efd;
+}
+
+.hide{
+    display: none;
+}
+
+.border-left{
+    border-left: 1px solid white;
+}
+.border-right{
+    border-right: 1px solid white;
+}
+.border-top{
+    border-top: 1px solid white;
+}
+.border-bottom{
+    border-bottom: 1px solid white;
+}
+
